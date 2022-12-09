@@ -4,6 +4,10 @@ Tittle : Back-End Database for Hack-The-Code
 
 The Application Helps to fetch Data from The Client side THrough the Help of rails
 
+## Live Link
+
+https://arcane-lake-46873.herokuapp.com/
+
 # Tech Used
 
 ```http
