@@ -17,4 +17,10 @@ class StatisticsController < ApplicationController
         render json: invites, status: :ok
     end
 
+    def test
+        usrs = User.all.where(student: true)
+        render json: usrs, status: :ok
+    end
+    
+
 end
