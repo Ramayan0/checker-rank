@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   post 'login', to: 'sessions#create'
   delete 'logout', to: 'sessions#destroy'
   get 'me', to: 'users#show'
+  get 'allassessments', to: 'statistics#assessments'
+  get 'allstudents', to: 'statistics#students'
+  get 'invites', to: 'statistics#inivites'
 
   resources :assessments, only: [:create, :index]
   resources :users, only: [:index]
