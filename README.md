@@ -1,24 +1,46 @@
-# README
+# Project Title
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tittle : Back-End Database for Hack-The-Code
 
-Things you may want to cover:
+The Application Helps to fetch Data from The Client side THrough the Help of rails
 
-* Ruby version
+# Tech Used
 
-* System dependencies
+```http
+  RUBY
+  ActiveRecords
+  Rails
+```
 
-* Configuration
+## Gem Reference
 
-* Database creation
+#### Get all items
 
-* Database initialization
+```http
+  $ gem update --system
+```
 
-* How to run the test suite
+#### You might be running into some bug that prevents you from upgrading rubygems the standard way.In that case, you can try upgrading manually:
 
-* Services (job queues, cache servers, search engines, etc.)
+| Parameter   | Type     | Description       |
+| :---------- | :------- | :---------------- |
+| `gem files` | `string` | **Required**. Gem |
 
-* Deployment instructions
+#### Get item
 
-* ...
+```http
+  Install with: ruby setup.rb
+```
+
+For more details and other options, see:
+
+```http
+  ruby setup.rb --help
+```
+
+## Authors
+
+-
+- [@Ramayan0](https://www.github.com/Ramayan0)
+- [@BlackHawk0](https://www.github.com/BlackHawk0)
+- [@StephenKairu](https://www.github.com/StephenKairu)
