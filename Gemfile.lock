@@ -103,7 +103,6 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.0)
     minitest (5.16.3)
     net-imap (0.3.2)
       date
@@ -115,9 +114,6 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
-    nokogiri (1.13.10)
-      mini_portile2 (~> 2.8.0)
-      racc (~> 1.4)
     nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     pg (1.4.5)
@@ -163,7 +159,7 @@ GEM
       language_server-protocol (~> 3.17.0)
       sorbet-runtime
       syntax_tree (>= 4.0.2, < 5.0.0)
-    sorbet-runtime (0.5.10577)
+    sorbet-runtime (0.5.10585)
     syntax_tree (4.3.0)
       prettier_print (>= 1.0.2)
     thor (1.2.1)
@@ -176,7 +172,6 @@ GEM
     zeitwerk (2.6.6)
 
 PLATFORMS
-  ruby
   x86_64-linux
 
 DEPENDENCIES
@@ -191,11 +186,5 @@ DEPENDENCIES
   ruby-lsp (~> 0.3.6)
   tzinfo-data
 
-<<<<<<< HEAD
-RUBY VERSION
-   ruby 2.7.4p191
-
-=======
->>>>>>> ae1bd46b6c335d960bef7857f3479ff086f661c3
 BUNDLED WITH
    2.3.26
