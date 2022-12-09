@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   resources :assessments, only: [:create, :index]
   resources :users, only: [:index]
   resources :invitations, only:[:index, :create]
+  resources :answers
+  resources :reviews
 end
