@@ -7,7 +7,7 @@ class ReviewsController < ApplicationController
       # GET /answer
       def show
         review = Review.find(params[:id])
-        render json: answer, status: :ok
+        render json: review, include: :user, status: :ok
       end
   
       # POST /answer
@@ -19,6 +19,6 @@ class ReviewsController < ApplicationController
       private
   
       def review_params
-        params.permit(:message, :user_id, :assessment_id)
+        params.permit(:message, :user_id, :answer_id)
       end
 end
