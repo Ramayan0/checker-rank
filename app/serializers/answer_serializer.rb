@@ -1,3 +1,3 @@
 class AnswerSerializer < ActiveModel::Serializer
-  # attributes :id
+  attributes :id, :user_id, :assessment_id, :message
 end
