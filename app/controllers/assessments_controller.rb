@@ -6,6 +6,11 @@ class AssessmentsController < ApplicationController
       render json: assessments, status: :ok
     end
 
+    def show
+      assessment = Assessment.find(params[:id])
+      render json: assessment, status: :ok
+    end
+
     # POST /assessments
     def create
       assessment = Assessment.create!(assessment_params)
