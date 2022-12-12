@@ -1,3 +1,7 @@
 class UserSerializer < ActiveModel::Serializer
-    attributes :id, :username, :email, :
+
+  has_many :invitation
+  has_many :invitations
+  attributes :id, :email, :mentor, :student, :username
+
 end

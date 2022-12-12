@@ -6,8 +6,11 @@ Rails.application.routes.draw do
   get 'allassessments', to: 'statistics#assessments'
   get 'allstudents', to: 'statistics#students'
   get 'invites', to: 'statistics#inivites'
-  get 'assessments/:id/questions', to: 'questions#questions'
+
  
+
+  get 'students', to: 'statistics#test'
+
 
   resources :assessments, only: [:create, :index, :show] 
   resources :users, only: [:index, :show]
